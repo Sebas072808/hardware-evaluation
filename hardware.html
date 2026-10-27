@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hardware Evaluation Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 24px;
+      background: #f4f6f9;
+      color: #222;
+    }
+    header, footer {
+      background: #17365d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    main { max-width: 1000px; margin: auto; }
+    h2, h3 { color: #17365d; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 18px 0 28px;
+      background: white;
+    }
+    th, td {
+      border: 1px solid #cbd2da;
+      padding: 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th { background: #17365d; color: white; }
+    tr:nth-child(even) { background: #eef2f7; }
+    .hardware {
+      background: white;
+      padding: 18px;
+      margin: 18px 0;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,.06);
+    }
+    .hardware img {
+      display: block;
+      width: 220px;
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    @media (max-width: 650px) {
+      body { padding: 12px; }
+      th, td { padding: 8px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Hardware Evaluation Page</h1>
+      <p>Chapter 3: Evaluating Hardware</p>
+      <p>A comparison of four important computer hardware components.</p>
+    </header>
+
+    <section>
+      <h2>Hardware Comparison Table</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Component</th>
+            <th>Description</th>
+            <th>Importance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>CPU</td>
+            <td>The Central Processing Unit executes instructions and processes data.</td>
+            <td>It performs calculations and coordinates many of the computer's operations.</td>
+          </tr>
+          <tr>
+            <td>RAM</td>
+            <td>Random Access Memory temporarily holds data and programs currently in use.</td>
+            <td>Enough RAM helps a computer run several applications smoothly at once.</td>
+          </tr>
+          <tr>
+            <td>SSD</td>
+            <td>A Solid State Drive stores the operating system, applications, and files.</td>
+            <td>It helps the computer start up and open files and applications quickly.</td>
+          </tr>
+          <tr>
+            <td>GPU</td>
+            <td>The Graphics Processing Unit processes images, video, and other visual information.</td>
+            <td>It is important for gaming, video editing, 3D design, and some AI tasks.</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section>
+      <h2>Hardware Explanations</h2>
+
+      <article class="hardware">
+        <h3>1. CPU (Central Processing Unit)</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/64/Intel_Core_i7_2600K_CPU.jpg" alt="Computer CPU">
+        <p>The CPU is often called the brain of the computer. It executes program instructions and performs calculations. CPU speed, core count, and design can affect how well a computer handles different tasks.</p>
+      </article>
+
+      <article class="hardware">
+        <h3>2. RAM (Random Access Memory)</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/DDR4_SDRAM_DIMM.jpg" alt="RAM memory module">
+        <p>RAM temporarily holds the information the computer is actively using. More RAM can help with multitasking and large applications. RAM is temporary, so its contents are cleared when the computer is turned off.</p>
+      </article>
+
+      <article class="hardware">
+        <h3>3. SSD (Solid State Drive)</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1c/SSD_2.5_inch.jpg" alt="Solid state drive">
+        <p>An SSD stores files and programs even when the computer is off. Because it has no moving parts, it can access data quickly and is generally more resistant to physical shock than a traditional hard drive.</p>
+      </article>
+
+      <article class="hardware">
+        <h3>4. GPU (Graphics Processing Unit)</h3>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Nvidia-GeForce-GTX-1070.jpg" alt="Graphics card with GPU">
+        <p>The GPU processes visual information and helps render graphics. It is especially useful for gaming, 3D design, and video editing. Some GPUs also accelerate scientific computing and artificial intelligence workloads.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Conclusion</h2>
+      <p>The CPU, RAM, SSD, and GPU each contribute to computer performance in different ways. The CPU processes instructions, RAM supports active tasks, the SSD stores data and speeds up loading, and the GPU handles graphics. The best components depend on what the computer will be used for.</p>
+    </section>
+
+    <footer>
+      <p>Assignment 4: Hardware Evaluation | Chapter 3</p>
+    </footer>
+  </main>
+</body>
+</html>
